@@ -34,4 +34,40 @@ ansButton2.addEventListener("click", function(){
     ansButton3El.classList.remove("hide")
 })
 
+var ansButton4 = document.getElementById("answer-btn3")
+
+ansButton4.addEventListener("click", function(){
+    var choiceButtonEl = document.querySelector(".question-3")
+
+    choiceButtonEl.classList.add("hide")
+
+    var ansButton4El = document.querySelector(".question-4")
+
+    ansButton4El.classList.remove("hide")
+})
+
+var ansButton5 = document.getElementById("answer-btn4")
+
+ansButton5.addEventListener("click", function(){
+    var choiceButtonEl = document.querySelector(".question-4")
+
+    choiceButtonEl.classList.add("hide")
+
+    var ansButton5El = document.querySelector(".question-5")
+
+    ansButton5El.classList.remove("hide")
+})
+
+var scorePage = document.getElementById("answer-btn5")
+
+scorePage.addEventListener("click", function(){
+    var choiceButtonEl = document.querySelector(".question-5")
+
+    choiceButtonEl.classList.add("hide")
+
+    var resultsPageEl = document.querySelector(".score-pg")
+
+    resultsPageEl.classList.remove("hide")
+})
+
 
